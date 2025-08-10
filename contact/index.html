@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us – Number Smiths</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <div class="container nav-bar">
+            <div class="logo-wrapper">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipN2PAzbUVTdFYikxl7hiVXYjuq0vfym4xEkn02y=s1302-w720-h1302-rw" alt="Number Smiths logo" class="logo-img">
+                <span class="logo-text">Number Smiths</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../services/index.html">Services</a></li>
+                    <li><a href="../index.html#about">About</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                    <li><a href="../privacy/index.html">Privacy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact page content -->
+    <section class="contact-page">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Have a question or ready to get started? We’d love to hear from you. Fill out the form below and we’ll be in touch shortly.</p>
+            <form class="contact-form" action="mailto:contact@numbersmithsatl.com" method="post" enctype="text/plain">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company">
+
+                <label for="interest">Service Interest</label>
+                <select id="interest" name="interest">
+                    <option value="bookkeeping">Bookkeeping &amp; Financial Management</option>
+                    <option value="automation">AI Business Automation</option>
+                    <option value="consulting">Brand Building &amp; Consulting</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+
+                <p style="font-size:0.9rem; color:#555; margin-bottom:1rem;">Don’t send medical or patient information. This form isn’t for PHI.</p>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <p style="margin-top:2rem;"><strong>Email:</strong> <a href="mailto:contact@numbersmithsatl.com">contact@numbersmithsatl.com</a></p>
+            <p><strong>Phone:</strong> (888) 320‑8538</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Number Smiths. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
