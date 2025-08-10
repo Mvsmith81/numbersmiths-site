@@ -3,217 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Smiths – Bookkeeping, Automation & Consulting</title>
+    <title>Number Smiths – Bookkeeping, Automation & Consulting</title>
     <!-- Google Font import for a clean, modern look -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-    /* Global resets and variables */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    body {
-        font-family: 'Poppins', sans-serif;
-        line-height: 1.6;
-        color: #292627;
-        background-color: #ffffff;
-        scroll-behavior: smooth;
-    }
-
-    /* Container helps align content centrally */
-    .container {
-        width: 90%;
-        max-width: 1100px;
-        margin: 0 auto;
-    }
-
-    /* Header styles */
-    header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background-color: #ffffff;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-        z-index: 1000;
-    }
-
-    .nav-bar {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0.75rem 0;
-    }
-
-    .logo-wrapper {
-        display: flex;
-        align-items: center;
-    }
-
-    .logo-img {
-        height: 36px;
-        width: auto;
-        margin-right: 0.5rem;
-    }
-
-    .logo-text {
-        font-weight: 600;
-        font-size: 1.4rem;
-        color: #68a5fb;
-    }
-
-    .main-nav ul {
-        list-style: none;
-        display: flex;
-        gap: 1.5rem;
-    }
-
-    .main-nav a {
-        text-decoration: none;
-        color: #292627;
-        font-weight: 500;
-        transition: color 0.3s ease;
-    }
-
-    .main-nav a:hover {
-        color: #68a5fb;
-    }
-
-    /* Hero section */
-    .hero {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8rem 0 6rem;
-        background: linear-gradient(135deg, #eaf3ff 0%, #f7fbff 100%);
-        text-align: left;
-    }
-
-    .hero-content {
-        max-width: 700px;
-    }
-
-    .hero h1 {
-        font-size: 2.6rem;
-        margin-bottom: 1rem;
-        line-height: 1.2;
-    }
-
-    .hero p {
-        font-size: 1.1rem;
-        margin-bottom: 1.8rem;
-        color: #555555;
-    }
-
-    .btn {
-        display: inline-block;
-        padding: 0.8rem 1.6rem;
-        border-radius: 6px;
-        font-weight: 600;
-        text-decoration: none;
-    }
-
-    .primary-btn {
-        background-color: #68a5fb;
-        color: #ffffff;
-        transition: background-color 0.3s ease;
-    }
-
-    .primary-btn:hover {
-        background-color: #3d7dfb;
-    }
-
-    /* Services section */
-    .services {
-        padding: 5rem 0;
-        background-color: #ffffff;
-        text-align: center;
-    }
-
-    .services h2 {
-        font-size: 2.2rem;
-        margin-bottom: 2rem;
-    }
-
-    .service-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 2rem;
-    }
-
-    .service-card {
-        background-color: #f5faff;
-        padding: 2rem;
-        border-radius: 8px;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .service-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
-    }
-
-    .service-card h3 {
-        font-size: 1.4rem;
-        margin-bottom: 0.8rem;
-        color: #292627;
-    }
-
-    .service-card p {
-        font-size: 1rem;
-        color: #555555;
-    }
-
-    /* About & Contact section */
-    .about, .contact {
-        padding: 5rem 0;
-        background-color: #fdfdfd;
-    }
-
-    .about h2, .contact h2 {
-        font-size: 2rem;
-        margin-bottom: 1rem;
-    }
-
-    .about p, .contact p {
-        font-size: 1rem;
-        color: #555555;
-        margin-bottom: 1rem;
-        max-width: 800px;
-    }
-
-    .about p:last-child, .contact p:last-child {
-        margin-bottom: 0;
-    }
-
-    /* Footer */
-    footer {
-        background-color: #292627;
-        color: #ffffff;
-        text-align: center;
-        padding: 1rem 0;
-        font-size: 0.9rem;
-    }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Fixed navigation bar -->
     <header>
         <div class="container nav-bar">
             <div class="logo-wrapper">
-                <!-- Use external logo provided by the user -->
-                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNyE0--hzXA1V-Zv52V31pVI3RVgSS5gG7GmhtUmI_sItLZqucZfUtwHJQph_adRn2nAMi21qJJIpXGHqdZnRO4Xe6rG03bmRcFrc3RjDan4kEn_r4lXDP1ypP1go6tc4jOtlIw3QvqfGJ3zcBgfJ3CeiUa9tsbEopa9v4eLBmg_NOzWnaQXiFdG7coYw/w513-h101/Copy%20of%20Untitled%20Design.png" alt="Number Smiths logo" class="logo-img">
-                <span class="logo-text">Number&nbsp;Smiths</span>
+                <!-- Use the external logo provided by the user. A small icon sits next to the word mark. -->
+                <img src="https://lh3.googleusercontent.com/p/AF1QipN2PAzbUVTdFYikxl7hiVXYjuq0vfym4xEkn02y=s1302-w720-h1302-rw" alt="Number Smiths logo" class="logo-img">
+                <span class="logo-text">Number Smiths</span>
             </div>
             <nav class="main-nav">
                 <ul>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="services/index.html">Services</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="contact/index.html">Contact</a></li>
+                    <li><a href="privacy/index.html">Privacy</a></li>
                 </ul>
             </nav>
         </div>
@@ -222,8 +32,8 @@
     <!-- Hero section -->
     <section id="home" class="hero">
         <div class="container hero-content">
-            <h1>Empowering Service and Healthcare Businesses with AI Automation</h1>
-            <p>We partner with service business owners and healthcare providers to streamline operations. Let us handle your numbers and automation so you can focus on what you do best.</p>
+            <h1>Empowering Service Businesses with AI Automation</h1>
+            <p>We partner with healthcare service owners and other service‑based businesses to streamline operations. Let us handle your numbers and automation so you can focus on caring for people.</p>
             <a href="#contact" class="btn primary-btn">Get Started</a>
         </div>
     </section>
@@ -235,11 +45,11 @@
             <div class="service-grid">
                 <div class="service-card">
                     <h3>Bookkeeping &amp; Financial Management</h3>
-                    <p>Comprehensive bookkeeping and financial management services – from accounts payable &amp; receivable to budgeting and forecasting – designed for service and healthcare businesses.</p>
+                    <p>Comprehensive bookkeeping and financial management services – from accounts payable &amp; receivable to budgeting and forecasting – to keep your business on track.</p>
                 </div>
                 <div class="service-card">
                     <h3>AI Business Automation</h3>
-                    <p>Transform your business with AI‑driven automation. We design and implement digital workflows, integrate systems and build chatbots so you can work smarter and scale effortlessly.</p>
+                    <p>Transform your business with AI‑driven automation. We design and implement digital workflows, integrate systems, and build chatbots so you can work smarter.</p>
                 </div>
                 <div class="service-card">
                     <h3>Brand Building &amp; Consulting</h3>
@@ -253,7 +63,7 @@
     <section id="about" class="about">
         <div class="container">
             <h2>About Us</h2>
-            <p>Number&nbsp;Smiths specializes in helping service and healthcare businesses thrive. Drawing on experience in healthcare and small business management, we blend meticulous bookkeeping with cutting‑edge AI automation to simplify your operations and unlock your potential.</p>
+            <p>Number Smiths specializes in helping service businesses thrive. Drawing on experience in healthcare and small business management, we blend meticulous bookkeeping with cutting‑edge AI automation to simplify your operations and unlock your potential.</p>
             <p>We take a personalized, hands‑on approach to understand your unique needs and craft solutions that fit perfectly. With our support, you’ll gain clarity, efficiency and confidence in every decision.</p>
         </div>
     </section>
@@ -262,9 +72,9 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2>Contact Us</h2>
-            <p>Ready to take the next step? Reach out for a free consultation and discover how Number&nbsp;Smiths can elevate your business.</p>
+            <p>Ready to take the next step? Reach out for a free consultation and discover how Number Smiths can elevate your business.</p>
             <p><strong>Email:</strong> <a href="mailto:contact@numbersmithsatl.com">contact@numbersmithsatl.com</a></p>
-            <p><strong>Phone:</strong> (888)&nbsp;320‑8538</p>
+            <p><strong>Phone:</strong> (888) 320‑8538</p>
         </div>
     </section>
 
